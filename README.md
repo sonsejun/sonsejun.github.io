@@ -1,39 +1,59 @@
-Travelog Theme
----
+# jekyll-ttskch-theme
 
-Travelog is a theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
+A simple and customizable theme for Jekyll.
 
-![](http://i.imgur.com/FrNwKav.png)
+> This theme was renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.  
+> And renamed again from _jekyll-**tch**-theme_ to _jekyll-**ttskch**-theme_ at 2016.09.23.
 
-In addition to being devilishly handsome, it is responsive down to mobile and has a very light footprint. Travelog lends itself well to photography and travel journaling.
+## Screen shot
 
-It has been designed to be an easy layout to modify for your own blog. See the installation instructions below to get started.
+![image](https://cloud.githubusercontent.com/assets/4360663/18776176/62611b38-81a2-11e6-875b-86a66aa8f15c.png)
 
-### Demo
+## Features
 
-See the theme in action [here](http://travelog.io/).
+* A lot of Markdown features (also GitHub Flavored Markdown)
+* `:emoji:` ready :+1:
+* Easy color-scheme customization
+* Tags list page
+* Monthly Archives page
+* Search feature without any Jekyll plugins
+* `<!--more-->` tag feature
+* Anchor links for each headings
+* Sticky side nav
+* Responsive
+* OGP ready
+* Share buttons ready
 
-### Installation
+## Getting started
 
-- Install Jekyll: `gem install jekyll`
-- [Fork this repository](https://github.com/rowanoulton/travelog-theme/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/travelog-theme`
-- Run the jekyll server: `jekyll serve -w`
+1. [Fork me](https://github.com/ttskch/jekyll-ttskch-theme/fork)
+2. Rename the repository from `jekyll-ttskch-theme` to `{username}.github.io` ([learn more](https://pages.github.com/))
+3. Modify `_config.yml`
+4. Modify `_sass/base/_variables.scss` if you need to change colors or font sizes
+5. Add new posts into `_posts/` :smiley:
 
-You should have a server up and running locally at <http://localhost:4000>.
+## Demo
 
-### Customization 
+You can see live demo at below:
 
-To customize the theme to your hearts content, check out what's in `_config.yml` as that's where you'll pull your name, Twitter username, things like that.
+* https://ttskch.github.io/jekyll-ttskch-theme/
 
+## Thanks for using :wink:
 
-### Deployment
+* http://ttskch.github.io
+* http://sitaramshelke.github.io
+* http://jffourmond.github.io
+* http://vbflash8.github.io
+* http://luqitao.github.io
+* http://harusametime.github.io
+* http://gitzxon.github.io
+* http://hutsonlu.github.io
+* http://k0-1.github.io
+* http://anthonygore.github.io
+* http://getjsdojo.github.io
+* http://georgezhuo.github.io
+* http://neontapir.github.io
+* https://sasukeh.github.io
+* https://blog.guilhermegarnier.com
 
-Travelog is designed to be deployed to [GitHub Pages](https://pages.github.com/). 
-
-
-### License
-
-[MIT](https://github.com/rowanoulton/travelog-theme/blob/master/LICENSE)
-
-Attribution is totally not necessary, use it as you please. If you'd like to throw me a shoutout or say thanks, I'm on [@rowanoulton](https://twitter.com/rowanoulton/).
+Please PR if you want to add your blog.
