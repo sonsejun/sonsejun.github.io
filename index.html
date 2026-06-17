@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<style>
+.proj-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.proj-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(201,122,80,0.2);
+}
+</style>
+
 <!-- About 섹션 -->
 <div style="padding: 28px 40px;">
   <p style="font-size: 22px; color: #C97A50; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 12px; padding-left: 10px; border-left: 3px solid #C97A50;">About</p>
@@ -111,7 +122,7 @@ layout: default
 <div style="padding: 28px 40px; background: #FBF5F0;">
   <p style="font-size: 22px; color: #C97A50; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 16px; padding-left: 10px; border-left: 3px solid #C97A50;">프로젝트 경험</p>
 
-  <div style="background: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
+  <div class="proj-card" style="background: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
       <span style="font-size: 18px; font-weight: 600; color: #2a2a2a;">○○제조 S/4HANA 전환 프로젝트</span>
       <span style="font-size: 13.5px; color: #aaa; white-space: nowrap; margin-left: 10px; background: #f5f0ed; padding: 2px 8px; border-radius: 10px;">2023.01 – 2023.12</span>
@@ -126,7 +137,7 @@ layout: default
     </div>
   </div>
 
-  <div style="background: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
+  <div class="proj-card" style="background: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
       <span style="font-size: 18px; font-weight: 600; color: #2a2a2a;">○○유통 SAP ERP 구축</span>
       <span style="font-size: 13.5px; color: #aaa; white-space: nowrap; margin-left: 10px; background: #f5f0ed; padding: 2px 8px; border-radius: 10px;">2022.01 – 2022.12</span>
@@ -140,7 +151,7 @@ layout: default
     </div>
   </div>
 
-  <div style="background: #fff; border-radius: 10px; padding: 16px 18px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
+  <div class="proj-card" style="background: #fff; border-radius: 10px; padding: 16px 18px; border-left: 3px solid #C97A50; border-top: 0.5px solid #ecddd5; border-right: 0.5px solid #ecddd5; border-bottom: 0.5px solid #ecddd5;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
       <span style="font-size: 18px; font-weight: 600; color: #2a2a2a;">○○기업 SAP 운영 지원</span>
       <span style="font-size: 13.5px; color: #aaa; white-space: nowrap; margin-left: 10px; background: #f5f0ed; padding: 2px 8px; border-radius: 10px;">2021.06 – 2021.12</span>
