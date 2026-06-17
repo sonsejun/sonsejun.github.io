@@ -50,16 +50,26 @@
 <body>
 
 <header class="site-header">
-    <div class="inner clearfix">
+    <div class="inner clearfix" style="display: flex; align-items: center; gap: 20px; padding: 20px 24px;">
         {% if site.avatar %}
         <a href="{{ '/' | prepend: site.baseurl }}">
-            <img class="avatar" src="{{ site.avatar | prepend: site.baseurl }}" alt=""/>
+            <img class="avatar" src="{{ site.avatar | prepend: site.baseurl }}" alt="" style="width: 70px; height: 70px; border-radius: 50%; margin: 0;"/>
         </a>
         {% endif %}
-        <h1 class="clearfix">
-            <a class="title {% if site.avatar == null %}slim{% endif %}" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
-            <br><span class="description">{{ site.description }}</span>
-        </h1>
+        <div>
+            <h1 style="margin: 0; font-size: 24px;">
+                <a style="color: #fff;" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+            </h1>
+            <p style="color: rgba(255,255,255,0.85); margin: 4px 0 10px;">{{ site.description }}</p>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">SAC</span>
+                <!-- <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">CO</span>
+                <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">MM</span>
+                <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">SD</span>
+                <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">PP</span>
+                <span style="background: rgba(255,255,255,0.25); color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.4);">S/4HANA</span> -->
+            </div>
+        </div>
     </div>
 </header>
 
